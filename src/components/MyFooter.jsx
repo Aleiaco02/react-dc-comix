@@ -63,12 +63,12 @@ const MyFooter = () => {
 
                 <div className="container-social">
                     <h3>FOLLOW US</h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <ul className="social">
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-youtube"></i></li>
+                        <li><i class="fa-brands fa-pinterest"></i></li>
+                        <li><i class="fa-solid fa-location-dot"></i></li>
                     </ul>
                 </div>
             </section>

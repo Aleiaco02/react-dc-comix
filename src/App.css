@@ -122,4 +122,22 @@ li {
 
 .container-social {
     display: flex;
+    align-items: center;
+}
+
+.container-social h3 {
+    display: flex;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.social {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 3rem;
+}
+
+.social i {
+    font-size: 30px;
+    color: gray;
 }
