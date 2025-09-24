@@ -1,9 +1,9 @@
-import logo from "../img/dc-logo-bg.png"
 
 const MyFooter = () => {
     return (
-        <footer className="container-footer">
-            <div className="container-footer-testo">
+        <>
+            {/* sezione footer about us */}
+            <footer className="container-footer">
                 <div>
                     <h3>DC COMICS</h3>
                     <ul>
@@ -50,12 +50,29 @@ const MyFooter = () => {
                         <li>Terms Of Use</li>
                     </ul>
                 </div>
-            </div>
+            </footer>
 
-            <div className="logo-footer">
-                <img src={logo} alt="logo" />
-            </div>
-        </footer>
+
+            {/* sezione footer registrati e social */}
+            <section className="container-footer-accedi">
+                <div className="container-accedi">
+                    <a href="#">
+                        <span className="bottone-accedi">SIGN-UP NOW!</span>
+                    </a>
+                </div>
+
+                <div className="container-social">
+                    <h3>FOLLOW US</h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </section>
+        </>
     )
 }
 

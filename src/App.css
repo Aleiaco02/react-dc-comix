@@ -46,39 +46,80 @@
 /* FOOTER */
 .container-footer {
     display: flex;
-    justify-content: space-between;
-    background-image: url(../src/img/footer-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+
+
+    /* due immagini di sfondo */
+    background-image: url('../src/img/dc-logo-bg.png'), url('../src/img/footer-bg.jpg');
+
+    /* nessuna ripetizione */
+    background-repeat: no-repeat, no-repeat;
+
+    /* dimensioni separate per le due immagini */
+    background-size: 40%, cover;
+
+    /* posizioni separate per le due immagini */
+    background-position: right 100px center, center;
+
     overflow: hidden;
-}
 
-.container-footer-testo {
+    /* assicurati che il container abbia altezza */
 
-    display: flex;
     gap: 50px;
-    padding: 5rem 15rem;
+    padding: 4rem 15rem;
 }
 
-.container-footer-testo h3 {
+
+
+.container-footer h3 {
     color: white;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 600;
 }
 
-.container-footer-testo ul {
+.container-footer ul {
     color: rgb(92, 92, 92);
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
-    margin: 2rem 0;
+    margin: 1.5rem 0;
 }
 
 
 li {
     list-style-type: none;
+    margin-bottom: 5px;
 }
 
-.logo-footer {
-    transform: scale(1.3);
+/* SEZIONE FOOTER ACCEDI E SOCIAL */
+
+.container-footer-accedi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+    padding: 3rem 15rem;
+}
+
+.container-footer-accedi h3 {
+    color: rgb(51, 97, 184);
+}
+
+
+.bottone-accedi {
+    border: solid 2px rgb(51, 97, 184);
+    padding: 0.7rem;
+}
+
+.bottone-accedi:hover {
+    background-color: rgb(51, 97, 184);
+    color: black;
+    transition: ease 0.4s;
+}
+
+.container-accedi a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-social {
+    display: flex;
 }
