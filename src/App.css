@@ -18,6 +18,7 @@
 
 .navbar ul {
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
@@ -30,10 +31,13 @@
 
 .active {
     border-bottom: 5px solid rgb(34, 99, 219);
-    padding-bottom: 120px;
-    position: relative;
-    /* Serve per posizionare il bordo sotto */
+    line-height: 130px;
+    margin: 0;
 
+}
+
+a {
+    text-decoration: none;
 }
 
 /* MAIN */
