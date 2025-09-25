@@ -1,4 +1,17 @@
-import logo from "../img/dc-logo.png"
+import logo from "../img/dc-logo.png";
+
+const categories = [
+    "CHARACTERS",
+    "COMICS",
+    "MOVIES",
+    "TV",
+    "GAMES",
+    "COLLECTIBLES",
+    "VIDEOS",
+    "FANS",
+    "NEWS",
+    "SHOP"
+];
 
 const MyHeader = () => {
     return (
@@ -9,20 +22,13 @@ const MyHeader = () => {
                 </div>
 
                 <ul>
-                    <li>CHARACTERS</li>
-                    <li>COMICS</li>
-                    <li>MOVIES</li>
-                    <li>TV</li>
-                    <li>GAMES</li>
-                    <li>COLLECTIBLES</li>
-                    <li>VIDEOS</li>
-                    <li>FANS</li>
-                    <li>NEWS</li>
-                    <li>SHOP</li>
+                    {categories.map((element, i) => (
+                        <li className="active" key={i}>{element}</li>
+                    ))}
                 </ul>
             </nav>
         </header>
-    )
+    );
 }
 
-export default MyHeader
+export default MyHeader;

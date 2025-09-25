@@ -1,17 +1,19 @@
+import ProductList from "./main-component/card"
+import Jumbo from "./main-component/jumbo"
+
+
 const MyMain = () => {
     return (
         <>
+
+            {/* Jumbotrone */}
+            <Jumbo />
+
             {/* contenuto main*/}
-            <main className="container-main">
-                <div className="contenuto">
-                    <h3>Content goes here</h3>
-                </div>
-            </main>
+            <ProductList />
 
-            {/* contenuto section bonus */}
-            <section>
 
-            </section>
+
         </>
     )
 }
