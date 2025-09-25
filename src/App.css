@@ -78,7 +78,7 @@ a {
 }
 
 .jumbotrone {
-    background-image: url(img/jumbotron.jpg);
+    background-image: url("../public/img/jumbotron.jpg");
     background-size: cover;
     height: 100%;
 
@@ -218,4 +218,31 @@ li {
 .social i {
     font-size: 30px;
     color: gray;
+}
+
+.container-footer-info {
+    background-color: rgb(51, 97, 184);
+    display: flex;
+    justify-content: center;
+}
+
+.container-card-info {
+    width: 80%;
+    display: flex;
+    gap: 40px;
+}
+
+.card-infos {
+    display: flex;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.card-infos span {
+    color: white;
+    margin-left: 1rem;
+}
+
+.card-infos img {
+    width: 50%;
 }

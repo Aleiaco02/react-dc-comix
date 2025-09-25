@@ -1,7 +1,29 @@
+const infos = [
+    { description: "DIGITAL COMICS", img: "/img/buy-comics-digital-comics.png" },
+    { description: "DC MERCHANDISE", img: "/img/buy-comics-merchandise.png" },
+    { description: "SUBSCRIPTION", img: "/img/buy-comics-shop-locator.png" },
+    { description: "COMIC SHOP LOCATOR", img: "/img/buy-comics-subscriptions.png" },
+    { description: "DC POWER VISA", img: "/img/buy-dc-power-visa.svg" }
+];
+
 
 const MyFooter = () => {
     return (
         <>
+
+            {/* creazione parte footer immagini */}
+            <section className="container-footer-info">
+                <div className="container-card-info">
+                    {infos.map((info, i) => (
+                        <div className="card-infos" key={i}>
+                            <img src={info.img} alt={info.description} />
+                            <span>{info.description}</span>
+                        </div>
+                    ))}
+                </div>
+            </section>
+
+
             {/* sezione footer about us */}
             <footer className="container-footer">
                 <div>
