@@ -1,4 +1,4 @@
-import logo from "../img/dc-logo.png";
+import logo from "/img/dc-logo.png";
 
 const categories = [
     { name: "CHARACTERS", current: false },

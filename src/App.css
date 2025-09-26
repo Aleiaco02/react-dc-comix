@@ -127,21 +127,11 @@ a {
 
 
     /* due immagini di sfondo */
-    background-image: url('../src/img/dc-logo-bg.png'), url('../src/img/footer-bg.jpg');
-
-    /* nessuna ripetizione */
+    background-image: url('/img/dc-logo-bg.png'), url('/img/footer-bg.jpg');
     background-repeat: no-repeat, no-repeat;
-
-    /* dimensioni separate per le due immagini */
     background-size: 40%, cover;
-
-    /* posizioni separate per le due immagini */
     background-position: right 100px center, center;
-
     overflow: hidden;
-
-    /* assicurati che il container abbia altezza */
-
     gap: 50px;
     padding: 4rem 15rem;
 }
@@ -226,16 +216,23 @@ li {
     justify-content: center;
 }
 
+.container-footer a {
+    color: rgb(95, 95, 95);
+}
+
 .container-card-info {
-    width: 80%;
+    width: 77%;
     display: flex;
+    justify-content: center;
     gap: 40px;
 }
 
 .card-infos {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin: 3rem 0;
+    width: calc(100% / 5);
 }
 
 .card-infos span {
@@ -244,5 +241,5 @@ li {
 }
 
 .card-infos img {
-    width: 50%;
+    width: 20%;
 }

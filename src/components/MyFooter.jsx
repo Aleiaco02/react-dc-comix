@@ -6,6 +6,8 @@ const infos = [
     { description: "DC POWER VISA", img: "/img/buy-dc-power-visa.svg" }
 ];
 
+import MenuFooter from "./main-component/MenuFooter";
+
 
 const MyFooter = () => {
     return (
@@ -24,55 +26,8 @@ const MyFooter = () => {
             </section>
 
 
-            {/* sezione footer about us */}
-            <footer className="container-footer">
-                <div>
-                    <h3>DC COMICS</h3>
-                    <ul>
-                        <li>Characters</li>
-                        <li>Comics</li>
-                        <li>Movies</li>
-                        <li>TV</li>
-                        <li>Games</li>
-                        <li>Videos</li>
-                        <li>News</li>
-                    </ul>
 
-                    <h3>SHOP</h3>
-                    <ul>
-                        <li>Shop DC</li>
-                        <li>Shop DC Collectibles</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3>DC</h3>
-                    <ul>
-                        <li>Terms Of Use</li>
-                        <li>Terms Of Use</li>
-                        <li>Terms Of Use</li>
-                        <li>Terms Of Use</li>
-                        <li>Terms Of Use</li>
-                        <li>Terms Of Use</li>
-                        <li>Terms Of Use</li>
-                        <li>Terms Of Use</li>
-                        <li>Terms Of Use</li>
-                        <li>Terms Of Use</li>
-                        <li>Terms Of Use</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3>SITES</h3>
-                    <ul>
-                        <li>Terms Of Use</li>
-                        <li>Terms Of Use</li>
-                        <li>Terms Of Use</li>
-                        <li>Terms Of Use</li>
-                        <li>Terms Of Use</li>
-                    </ul>
-                </div>
-            </footer>
+            <MenuFooter />
 
 
             {/* sezione footer registrati e social */}
@@ -86,11 +41,11 @@ const MyFooter = () => {
                 <div className="container-social">
                     <h3>FOLLOW US</h3>
                     <ul className="social">
-                        <li><i class="fa-brands fa-facebook"></i></li>
-                        <li><i class="fa-brands fa-twitter"></i></li>
-                        <li><i class="fa-brands fa-youtube"></i></li>
-                        <li><i class="fa-brands fa-pinterest"></i></li>
-                        <li><i class="fa-solid fa-location-dot"></i></li>
+                        <li><i className="fa-brands fa-facebook"></i></li>
+                        <li><i className="fa-brands fa-twitter"></i></li>
+                        <li><i className="fa-brands fa-youtube"></i></li>
+                        <li><i className="fa-brands fa-pinterest"></i></li>
+                        <li><i className="fa-solid fa-location-dot"></i></li>
                     </ul>
                 </div>
             </section>
