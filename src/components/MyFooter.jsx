@@ -1,8 +1,8 @@
 const infos = [
     { description: "DIGITAL COMICS", img: "/img/buy-comics-digital-comics.png" },
     { description: "DC MERCHANDISE", img: "/img/buy-comics-merchandise.png" },
-    { description: "SUBSCRIPTION", img: "/img/buy-comics-shop-locator.png" },
-    { description: "COMIC SHOP LOCATOR", img: "/img/buy-comics-subscriptions.png" },
+    { description: "SUBSCRIPTION", img: "/img/buy-comics-subscriptions.png" },
+    { description: "COMIC SHOP LOCATOR", img: "/img/buy-comics-shop-locator.png" },
     { description: "DC POWER VISA", img: "/img/buy-dc-power-visa.svg" }
 ];
 
