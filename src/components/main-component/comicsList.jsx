@@ -153,26 +153,21 @@ const comics = [
     },
 ];
 
-const ProductList = () => {
+import ComicsCard from "./comicsCard";
+
+const ComicsList = () => {
     return (
-        <>
-            <main className="container-main">
-                {comics.map(singolObject => (
-                    <div className="card">
-                        <div className="card-img">
-                            <img src={singolObject.thumb} alt={singolObject.series} />
-                        </div>
-                        <span>{singolObject.series}</span>
-                    </div>
-                ))}
-            </main>
+        <main className="container-main">
+            {comics.map((comic) => (
+                <ComicsCard
+                    key={comic.id}
+                    thumb={comic.thumb}
+                    series={comic.series}
+                />
+            ))}
+        </main>
+    );
+};
 
-            <div className="load-more">
-                <a href="#"><span>LOAD MORE</span></a>
-            </div>
-        </>
-    )
-}
-
-export default ProductList
+export default ComicsList
 

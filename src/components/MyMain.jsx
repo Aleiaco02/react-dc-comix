@@ -1,4 +1,4 @@
-import ProductList from "./main-component/card"
+import ComicsList from "./main-component/comicsList"
 import Jumbo from "./main-component/jumbo"
 
 
@@ -10,7 +10,7 @@ const MyMain = () => {
             <Jumbo />
 
             {/* contenuto main*/}
-            <ProductList />
+            <ComicsList />
 
 
 
